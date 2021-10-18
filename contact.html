@@ -1,0 +1,177 @@
+<html>
+  <head>
+    <title>CONATCT</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap");
+      .box {
+        background-color: rgb(255, 255, 255);
+        padding: 60px;
+        border-radius: 30px;
+        width: 50%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+
+      h1 {
+        font-family: Montserrat;
+      }
+
+      body {
+        background-color: #dae1e7;
+      }
+
+      label {
+        font-family: Roboto;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      input[type="text"],
+      input[type="number"],
+      input[type="email"] {
+        font-family: Roboto;
+        width: 100%;
+        border: 1px solid #848484;
+        border-radius: 30px;
+        outline: 0;
+        height: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+      }
+
+      .cont {
+        padding-bottom: 35px;
+      }
+
+      textarea {
+        width: 100%;
+        font-family: Roboto;
+        border-radius: 10px;
+        outline: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+      }
+
+      input[type="button"],
+      input[type="submit"],
+      input[type="reset"] {
+        background-color: #3B6978;
+        color: white;
+        width: 200px;
+        border: none;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 30px;
+        font-family: Montserrat;
+        font-size: 15px;
+      }
+
+      .button-cont {
+        padding-top: 60px;
+        text-align: center;
+      }
+
+      .menu {
+        width: auto;
+        height: auto;
+        background-color: #00909e;
+        overflow: visible;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      li {
+        float: left;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: Montserrat;
+      }
+
+      li a:hover {
+        background-color: #004e55;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <ul>
+        <li><a href="Untitled-1.html">HOME</a></li>
+        <li><a href="about_me.html">ABOUT ME</a></li>
+        <li><a href="education.html">EDUCATION</a></li>
+        <li><a href="Resume.html">RESUME</a></li>
+        <li><a href="hobbies.html">HOBBIES</a></li>
+        <li><a href="contact.html">CONTACT ME</a></li>
+      </ul>
+    </div>
+    <div class="box">
+      <h1 style="font-size: 45px; text-align: center">Contact Me</h1>
+      <br /><br />
+      <form>
+        <div class="cont">
+          <div class="lbl">
+            <label for="text-name">Name</label>
+          </div>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="cont">
+          <div class="lbl"><label for="text-name">E-mail</label></div>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="abc@xyz.com"
+          />
+        </div>
+        <div class="cont">
+          <div class="lbl"><label for="text-name">Phone Number</label></div>
+          <input
+            type="number"
+            id="Phone"
+            name="Phone"
+            placeholder="Enter your phone number"
+          />
+        </div>
+        <div class="cont">
+          <div class="lbl"><label for="text-name">Suggestions</label></div>
+          <textarea
+            id="address"
+            name="address"
+            placeholder="Suggestions"
+            rows="3"
+          ></textarea>
+        </div>
+        <div class="button-cont">
+          <input type="submit" />
+          <input type="reset" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
